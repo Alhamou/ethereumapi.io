@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "Mainnet": "https://api.etherscan.io",
+        "Goerli": "https://api-goerli.etherscan.io",
+        "Kovan": "https://api-kovan.etherscan.io",
+        "RInkeby": "https://api-rinkeby.etherscan.io",
+        "Ropsten": "https://api-ropsten.etherscan.io"
+    },
+    "prod":""
+}
