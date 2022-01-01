@@ -1,9 +1,3 @@
-
-
-
-
-
-
 const controller = (function(){
 
     const obj = {}
@@ -31,7 +25,7 @@ const controller = (function(){
             const web3 = new Web3(Web3.givenProvider);
             balance = await web3.eth.getBalance(currentAccount)
             
-            Number(web3.utils.fromWei(balance, "ether")).toFixed(4)  + " ETH"
+            balance = Number(web3.utils.fromWei(balance, "ether")).toFixed(4)  + " ETH"
 
         }
         document.querySelector("p").innerText = balance
