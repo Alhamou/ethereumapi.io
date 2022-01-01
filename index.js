@@ -3,6 +3,7 @@
 require('dotenv').config()
 const express = require("express")
 const app = new express()
+const  path = require("path")
 
 const options = {
     dotfiles: 'ignore',
@@ -17,13 +18,18 @@ const options = {
 }
 
 
-app.use(express.static('public', options));
+app.use("/", express.static(path.join(__dirname, "./src/public")));
 
 
 const accountsRouters = require("./src/routers/Accounts")
 
 
+
 app.use("/accounts", accountsRouters)
+
+// app.get("*", (req, res) => {
+//     res.sendFile(path.join(__dirname, "./index.html"));
+// });
 
 
 const PORT = Number(process.env.PORT || 3000)
