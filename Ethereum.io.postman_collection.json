@@ -1,0 +1,116 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Ethereum.io",
+		"_postman_id": "ef75f2ff-d0a8-84d7-6d41-d879a7d192d8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Accounts",
+			"description": "",
+			"item": [
+				{
+					"name": "balance",
+					"request": {
+						"url": "http://localhost:3000/accounts/balance",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "balancemulti",
+					"request": {
+						"url": "http://localhost:3000/accounts/balancemulti",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "listNormalTransactions",
+					"request": {
+						"url": "http://localhost:3000/accounts/listNormalTransactions",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "listInternalTransactions",
+					"request": {
+						"url": "http://localhost:3000/accounts/listInternalTransactions",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "txlistinternal",
+					"request": {
+						"url": "http://localhost:3000/accounts/txlistinternal",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "txlistinternalByBlock",
+					"request": {
+						"url": "http://localhost:3000/accounts/txlistinternalByBlock",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "listERC721TokenTransferByAddress",
+					"request": {
+						"url": "http://localhost:3000/accounts/listERC721TokenTransferByAddress",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "listBlocksMinedbyAddress",
+					"request": {
+						"url": "http://localhost:3000/accounts/listBlocksMinedbyAddress",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "listERC20TokenTransferByAddress",
+					"request": {
+						"url": "http://localhost:3000/accounts/listERC20TokenTransferByAddress",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
